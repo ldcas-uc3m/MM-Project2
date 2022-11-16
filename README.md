@@ -1,5 +1,3 @@
 ```
-pip install beautifulsoup4
+pip install -r requirements.txt
 ```
-
-<!-- todo: requirements.txt -->

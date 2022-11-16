@@ -4,16 +4,29 @@ IMDb scraper
 
 import requests
 from bs4 import BeautifulSoup
-# import panda as pd
+import pandas as pd
 
-def getData_type1(url: str):
-    # pages w/out videos
+
+DB_PATH = "./MovieGenreIGC_v3.xlsx"
+OUTPUT = "./output.json"
+
+
+def getData_type1(url: str) -> dict:
+    '''
+    Returns a dictionary with title, director, description, year, and genres
+    of the movie specified in the IMDb url.
+    Returns an empty dictionary if the page doesn't exist.
+    For pages without videos.
+    '''
+
+    if "http://www.imdb.com/title/tt" not in url:
+        return {}
 
     r = requests.get(url)
 
-    # r.status_code
-    # r.headers["Content-Type"]
-    # r.text
+    if r.status_code != 200:
+        return {}
+
 
     imdb = BeautifulSoup(r.text, "html.parser")
 
@@ -28,46 +41,83 @@ def getData_type1(url: str):
 
 
     # genres
-    genres = imdb.select("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-7643a8e3-2.ebKPVC > div.sc-7643a8e3-10.itwFpV > div.sc-7643a8e3-4.iAthmE > div.sc-16ede01-8.hXeKyz.sc-7643a8e3-11.efPxUc > div > div.ipc-chip-list__scroller > a:nth-child(2)")
+    genres = imdb.select("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-7643a8e3-6.bunqBa > div.sc-7643a8e3-10.itwFpV > div.sc-7643a8e3-8.hOtbMQ > div.sc-16ede01-9.bbiYSi.sc-7643a8e3-11.efPxUc > div.ipc-chip-list--baseAlt.ipc-chip-list.sc-16ede01-5.ggbGKe > div.ipc-chip-list__scroller > a")
+    parsed_genres = []
 
-    print(title.text)
-    print(director.text)
-    print(desc.text)
-    print(year.text)
-    print(genres)
+    for elem in genres:
+        parsed_genres.append(elem.text)
+
+    return {
+        "title": title.text,
+        "director": director.text,
+        "year": year.text,
+        "description": desc.text,
+        "genres": parsed_genres
+    }
 
 
-def getData_type2(url: str):
-    # pages w/out videos
-    
+def getData_type2(url: str) -> dict:
+    '''
+    Returns a dictionary with title, director, description, year, and genres
+    of the movie specified in the IMDb url.
+    Returns an empty dictionary if the page doesn't exist.
+    For pages with videos.
+    '''
+    if "http://www.imdb.com/title/tt" not in url:
+        return {}
+
     r = requests.get(url)
 
-    # r.status_code
-    # r.headers["Content-Type"]
-    # r.text
+    if r.status_code != 200:
+        return {}
 
     imdb = BeautifulSoup(r.text, "html.parser")
-
-    # TODO: Redo selectors
 
     # movie title
     title = imdb.select_one("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-80d4314-0.fjPRnj > div.sc-80d4314-1.fbQftq > h1")
     # director
-    director = imdb.select_one("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-7643a8e3-6.bunqBa > div.sc-7643a8e3-10.itwFpV > div.sc-7643a8e3-8.hOtbMQ > div.sc-fa02f843-2.dwQKsL > div > div > ul > li:nth-child(1) > div > ul > li > a")
+    director = imdb.select_one("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-7643a8e3-2.ebKPVC > div.sc-7643a8e3-10.itwFpV > div.sc-7643a8e3-4.iAthmE > div.sc-fa02f843-2.dwQKsL > div > div > ul > li:nth-child(1) > div > ul > li > a")
     # description
-    desc = imdb.select_one("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-7643a8e3-2.ebKPVC > div.sc-7643a8e3-10.itwFpV > div.sc-7643a8e3-4.iAthmE > div.sc-16ede01-8.hXeKyz.sc-7643a8e3-11.efPxUc > p > span.sc-16ede01-1.kgphFu")
+    desc = imdb.select_one("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-7643a8e3-2.ebKPVC > div.sc-7643a8e3-10.itwFpV > div.sc-7643a8e3-4.iAthmE > div.sc-16ede01-8.hXeKyz.sc-7643a8e3-11.efPxUc > p > span.sc-16ede01-2.gXUyNh")
     # year
     year = imdb.select_one("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-80d4314-0.fjPRnj > div.sc-80d4314-1.fbQftq > div > ul > li:nth-child(1) > span")
 
 
     # genres
-    genres = imdb.select("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-7643a8e3-2.ebKPVC > div.sc-7643a8e3-10.itwFpV > div.sc-7643a8e3-4.iAthmE > div.sc-16ede01-8.hXeKyz.sc-7643a8e3-11.efPxUc > div > div.ipc-chip-list__scroller > a:nth-child(2)")
+    genres = imdb.select("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-7643a8e3-2.ebKPVC > div.sc-7643a8e3-10.itwFpV > div.sc-7643a8e3-4.iAthmE > div.sc-16ede01-8.hXeKyz.sc-7643a8e3-11.efPxUc > div > div.ipc-chip-list__scroller > a")
+    parsed_genres = []
+
+    for elem in genres:
+        parsed_genres.append(elem.text)
+
+    return {
+        "title": title.text,
+        "director": director.text,
+        "year": year.text,
+        "description": desc.text,
+        "genres": parsed_genres
+    }
+
+def main():
+    '''
+    Goes through the database on DB_PATH and gets the urls,
+    using those to scrape the data of each movie, and saving it to OUTPUT
+    '''
+    pass
 
 
+def test():
+    # type 1
+    print(getData_type1("http://www.imdb.com/title/tt0357608/"))  # one genre
+    print(getData_type1("http://www.imdb.com/title/tt4991286/"))  # multiple genres
+    print(getData_type1("http://www.imdb.com/title/tt0adfdf7608/"))  # fails
 
-# type 1
-getData_type1("http://www.imdb.com/title/tt0357608/")
-# getData("https://www.imdb.com/title/tt4991286/")
+    # type 2
+    print(getData_type2("http://www.imdb.com/title/tt0780504"))  # one genre
+    print(getData_type2("http://www.imdb.com/title/tt0446029"))  # multiple genres
+    print(getData_type1("http://www.imdb.com/title/tt0adfdf7608/"))  # fails
 
-# type 2
-getData_type2("http://www.imdb.com/title/tt0780504")
+
+if __name__ == "__main__":
+    # test()
+    main()

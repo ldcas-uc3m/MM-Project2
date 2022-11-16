@@ -1,1 +1,2 @@
-#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-7643a8e3-2.ebKPVC > div.sc-7643a8e3-10.itwFpV > div.sc-7643a8e3-4.iAthmE > div.sc-16ede01-8.hXeKyz.sc-7643a8e3-11.efPxUc > div")
+ url[0:27] != "http://www.imdb.com/title/tt":
+    #     return {}
