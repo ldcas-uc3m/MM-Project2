@@ -19,7 +19,7 @@ dataframe = openpyxl.load_workbook(DB_PATH)
 dataframe1 = dataframe.active
     
 
-
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/102.0"}
 
 
 
@@ -33,9 +33,7 @@ def getData(url: str) -> dict:
     if "http://www.imdb.com/title/tt" not in url:
         return {}
 
-    url += "/reference"
-
-    r = requests.get(url)
+    r = requests.get(url, headers = HEADERS)
 
     # print(r.status_code, url)
 
@@ -46,30 +44,17 @@ def getData(url: str) -> dict:
     imdb = BeautifulSoup(r.text, "html.parser")
 
     # movie title
-    title = imdb.select_one("#main > section > div > div > h3")
+    title = imdb.select_one("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-80d4314-0.fjPRnj > div.sc-80d4314-1.fbQftq > h1")
     # director
-    director = imdb.select_one("#main > section > section.titlereference-section-overview > div:nth-child(3) > ul > li > a")
+    director = imdb.select_one("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-7643a8e3-6.bunqBa > div.sc-7643a8e3-10.itwFpV > div.sc-7643a8e3-8.hOtbMQ > div.sc-fa02f843-2.dwQKsL > div > div > ul > li:nth-child(1) > div > ul > li > a")
     # description
-    desc = imdb.select_one("#main > section > section.titlereference-section-overview > div:nth-child(1)")
+    desc = imdb.select_one("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-7643a8e3-6.bunqBa > div.sc-7643a8e3-10.itwFpV > div.sc-7643a8e3-8.hOtbMQ > div.sc-16ede01-9.bbiYSi.sc-7643a8e3-11.efPxUc > div.sc-16ede01-7.hrgVKw > span.sc-16ede01-2.gXUyNh")
     # year
-    year = imdb.select_one("#main > section > div > div > h3 > span > a")
+    year = imdb.select_one("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-80d4314-0.fjPRnj > div.sc-80d4314-1.fbQftq > div > ul > li:nth-child(1) > span")
 
 
     # genres
-    # TODO: parsing of text (it's currently shit)
-    # check if there is a category (stuff changes)
-    category = imdb.select_one("#main > section > div > div > ul:nth-child(9) > li:nth-child(1)")
-    if category == None:
-        category = imdb.select_one("#main > section > div > div > ul:nth-child(8) > li:nth-child(1)")
-        print(category.text)
-        if category.text in ("G", "PG", "PG-13", "R", "NC-17"):
-            genres = imdb.select("#main > section > div > div > ul:nth-child(8) > li:nth-child(3) > a")
-    else:
-        if category.text in ("G", "PG", "PG-13", "R", "NC-17"):
-            genres = imdb.select("#main > section > div > div > ul:nth-child(9) > li:nth-child(3) > a")
-        
-    # print(category)
-    genres = imdb.select("#main > section > div > div > ul:nth-child(8) > li:nth-child(2) > a")
+    genres = imdb.select("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-7643a8e3-6.bunqBa > div.sc-7643a8e3-10.itwFpV > div.sc-7643a8e3-8.hOtbMQ > div.sc-16ede01-9.bbiYSi.sc-7643a8e3-11.efPxUc > div.ipc-chip-list--baseAlt.ipc-chip-list.sc-16ede01-5.ggbGKe > div.ipc-chip-list__scroller > a > span")
     parsed_genres = []
 
     for elem in genres:
@@ -129,11 +114,6 @@ def test():
     print(getData("http://www.imdb.com/title/tt0357608"))  # one genre
     print(getData("http://www.imdb.com/title/tt4991286"))  # multiple genres
     print(getData("http://www.imdb.com/title/tt0adfdf7608"))  # fails
-
-    # type 2
-    print(getData("http://www.imdb.com/title/tt0780504"))  # one genre
-    print(getData("http://www.imdb.com/title/tt0446029"))  # multiple genres
-    print(getData("http://www.imdb.com/title/tt0adfdf7608/"))  # fails
 
 
 if __name__ == "__main__":
