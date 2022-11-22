@@ -5,10 +5,22 @@ IMDb scraper
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import openpyxl
+import json
 
 
-DB_PATH = "./MovieGenreIGC_v3.xlsx"
-OUTPUT = "./output.json"
+DB_PATH = "MovieGenreIGC_v3.xlsx"
+OUTPUT = "output.json"
+
+# Define variable to load the dataframe
+dataframe = openpyxl.load_workbook(DB_PATH)
+ 
+# Define variable to read sheet
+dataframe1 = dataframe.active
+    
+
+
+
 
 
 def getData_type1(url: str) -> dict:
@@ -103,6 +115,27 @@ def main():
     Goes through the database on DB_PATH and gets the urls,
     using those to scrape the data of each movie, and saving it to OUTPUT
     '''
+    data = {}
+    data['movies'] = []
+
+    result = dict()
+
+    # Iterate the loop to read the cell values
+    for row in range(1, dataframe1.max_row):
+        for col in dataframe1.iter_cols(2, 2):
+            #print(col[row].value)
+            movieUrl =col[row].value
+            result = getData_type1(movieUrl)
+            data['movies'].append({
+                'movie_title': result["title"],
+                'movie_director': result["director"],
+                'movie-year': result["year"],
+                'movie-description': result["description"]})
+
+            
+    with open(OUTPUT, 'w') as file:
+        json.dump(data, file, indent=4)
+
     pass
 
 
