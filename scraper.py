@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import openpyxl
 import json
+import re
 
 
 DB_PATH = "MovieGenreIGC_v3.xlsx"
@@ -43,6 +44,12 @@ def getData(url: str) -> dict:
 
     imdb = BeautifulSoup(r.text, "html.parser")
 
+    # check if gay
+    if ("gay" in r.text or "lgbt" in r.text):
+        gay = True
+    else:
+        gay = False
+
     # movie title
     title = imdb.select_one("#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > section > div:nth-child(4) > section > section > div.sc-80d4314-0.fjPRnj > div.sc-80d4314-1.fbQftq > h1")
     # director
@@ -60,13 +67,18 @@ def getData(url: str) -> dict:
     for elem in genres:
         parsed_genres.append(elem.text)
 
-    return {
-        "title": title.text,
-        "director": director.text,
-        "year": year.text,
-        "description": desc.text,
-        "genres": parsed_genres
-    }
+    try:
+        return {
+            "title": title.text,
+            "director": director.text,
+            "year": year.text,
+            "description": desc.text,
+            "genres": parsed_genres,
+            "lgbt": gay
+        }
+
+    except AttributeError:
+        return {}
 
 
 def main():
@@ -85,26 +97,26 @@ def main():
     for row in range(1, dataframe1.max_row):
         for col in dataframe1.iter_cols(2, 2):
             #print(col[row].value)
-            movieUrl =col[row].value
-            result = getData_type1(movieUrl)
+            movieUrl = col[row].value
+            result = getData(movieUrl)
 
-            if result != []:
+            if result != {}:
                 data['movies'].append({
-                    'index': '_id:'+ idCount})
+                    'index': '_id:'+ str(idCount)})
 
                 data['movies'].append({
                     'movie_title': result["title"],
                     'movie_director': result["director"],
                     'movie-year': result["year"],
-                    'movie-description': result["description"]})
-            else:
-                result = getData_type2(movieUrl)
+                    'movie-description': result["description"],
+                    "movie-lgbt": result["lgbt"]
+                    })
                 
             idCount += 1
 
             
     with open(OUTPUT, 'w') as file:
-        json.dump(data, file, indent=4)
+        json.dump(data, file)
 
     pass
 
@@ -113,9 +125,10 @@ def test():
     # type 1
     print(getData("http://www.imdb.com/title/tt0357608"))  # one genre
     print(getData("http://www.imdb.com/title/tt4991286"))  # multiple genres
+    print(getData("http://www.imdb.com/title/tt5726616"))  # gay, but not right format
     print(getData("http://www.imdb.com/title/tt0adfdf7608"))  # fails
 
 
 if __name__ == "__main__":
-    test()
-    # main()
+    # test()
+    main()
