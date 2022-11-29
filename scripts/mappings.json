@@ -1,11 +1,12 @@
-{
+ {
     "mappings": {
         "properties": {
             "title": {"type": "text"},
             "description": {"type": "text"},
-            "director": {"type": "text"},
+            "director": {"type": "keyword"},
             "genres": {"type": "keyword"},
-            "year": {"type": "int"}
+            "year": {"type": "long"},
+            "lgbt": {"type": "boolean"}
         }
     }
 }

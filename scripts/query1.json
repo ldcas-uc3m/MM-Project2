@@ -1,0 +1,33 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "range": {
+            "year": {
+              "gt": "1980"
+            }
+          }
+        }
+      ],
+      "must_not": [ ],
+      "should": [
+        {
+          "match": {
+            "description": "WWII"
+          }
+        },
+        {
+          "match": {
+            "description": "World War II"
+          }
+        }
+      ],
+      "minimum_should_match": 1
+    }
+  },
+  "from": 0,
+  "size": 10,
+  "sort": [ ],
+  "aggs": { }
+}
