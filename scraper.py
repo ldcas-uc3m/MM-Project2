@@ -11,7 +11,7 @@ import re
 
 
 DB_PATH = "MovieGenreIGC_v3.xlsx"
-OUTPUT = "output.json"
+OUTPUT = "output3.json"
 
 # Define variable to load the dataframe
 dataframe = openpyxl.load_workbook(DB_PATH)
@@ -93,30 +93,34 @@ def main():
     idCount = 0
     # Iterate the loop to read the excel cell values 
     # containing the url to acces each movie iMDB url
+    with open(OUTPUT, 'w') as file:
+        for row in range(1, 4 ):  #dataframe1.max_row
+            for col in dataframe1.iter_cols(2, 2):
+                #print(col[row].value)
+                movieUrl = col[row].value
+                result = getData(movieUrl)
 
-    for row in range(1, dataframe1.max_row):
-        for col in dataframe1.iter_cols(2, 2):
-            #print(col[row].value)
-            movieUrl = col[row].value
-            result = getData(movieUrl)
+                if result != {}:
+                    
+                    json.dump({'index': {'_id': str(idCount)}}, file)
+                    file.write("\n")
 
-            if result != {}:
-                data['movies'].append({
-                    'index': '_id:'+ str(idCount)})
+                    json.dump({
+                        'movie_title': result["title"],
+                        'movie_director': result["director"],
+                        'movie_year': result["year"],
+                        'movie_description': result["description"],
+                        'movie_genres': result['genres'],
+                        "movie-lgbt": result["lgbt"]
+                        }, file)
 
-                data['movies'].append({
-                    'movie_title': result["title"],
-                    'movie_director': result["director"],
-                    'movie-year': result["year"],
-                    'movie-description': result["description"],
-                    "movie-lgbt": result["lgbt"]
-                    })
+                    file.write("\n")
                 
-            idCount += 1
+                idCount += 1
 
             
-    with open(OUTPUT, 'w') as file:
-        json.dump(data, file)
+    #with open(OUTPUT, 'w') as file:
+        #json.dump(data, file)
 
     pass
 
