@@ -5,7 +5,7 @@
             "description": {"type": "text"},
             "director": {"type": "keyword"},
             "genres": {"type": "keyword"},
-            "year": {"type": "long"},
+            "year": {"type": "short"},
             "lgbt": {"type": "boolean"}
         }
     }

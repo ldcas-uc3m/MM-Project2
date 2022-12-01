@@ -1,7 +1,27 @@
 {
   "query": {
     "bool": {
-      "must": [
+      "must": [ ],
+      "must_not": [ ],
+      "should": [
+        {
+          "multi_match": {
+            "query": "WWII",
+            "fields": ["title", "description"]
+          }
+        },
+        {
+          "multi_match": {
+            "query": "World War II",
+            "fields": ["title", "description"]
+          }
+        }
+      
+      ],
+
+      "minimum_should_match": 1,
+
+      "filter": [
         {
           "range": {
             "year": {
@@ -9,21 +29,7 @@
             }
           }
         }
-      ],
-      "must_not": [ ],
-      "should": [
-        {
-          "match": {
-            "description": "WWII"
-          }
-        },
-        {
-          "match": {
-            "description": "World War II"
-          }
-        }
-      ],
-      "minimum_should_match": 1
+      ]
     }
   },
   "from": 0,

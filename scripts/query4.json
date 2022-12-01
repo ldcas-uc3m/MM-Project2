@@ -1,0 +1,48 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "multi_match": {
+            "query": "corrupt politicians",
+            "fields": ["title", "description"]
+          }
+        }
+      ],
+      "must_not": [ ],
+      "should": [
+        {
+          "multi_match": {
+            "query": "United States",
+            "fields": ["title", "description"]
+          }
+        },
+        {
+          "multi_match": {
+            "query": "USA",
+            "fields": ["title", "description"]
+          }
+        },
+        {
+          "multi_match": {
+            "query": "Europe",
+            "fields": ["title", "description"]
+          }
+        },
+        {
+          "multi_match": {
+            "query": "Spain",
+            "fields": ["title", "description"]
+          }
+        }
+      
+      ],
+
+      "minimum_should_match": 1
+    }
+  },
+  "from": 0,
+  "size": 10,
+  "sort": [ ],
+  "aggs": { }
+}

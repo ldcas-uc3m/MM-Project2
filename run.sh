@@ -7,7 +7,7 @@ curl -XPUT "localhost:9200/multimedia?pretty" -H "Content-Type: application/json
 # curl -s -XDELETE "localhost:9200/multimedia/_doc/test1?pretty"
 
 # upload documents
-curl -s -XPOST "localhost:9200/multimedia/_doc/_bulk?pretty" -H "Content-Type: application/json"  --data-binary @data/bulk_data.json
+curl -s -XPOST "localhost:9200/multimedia/_doc/_bulk?pretty" -H "Content-Type: application/json"  --data-binary @data/bulk_data
 
 # query1
 # World	War II films produced from 1980 onwards

@@ -4,14 +4,12 @@ IMDb scraper
 
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
 import openpyxl
 import json
-import re
 
 
 DB_PATH = "data/MovieGenreIGC_v3.xlsx"
-OUTPUT = "data/bulk_data.json"
+OUTPUT = "data/bulk_data"
 
 # Define variable to load the dataframe
 dataframe = openpyxl.load_workbook(DB_PATH)

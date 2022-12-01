@@ -1,0 +1,25 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "genres": "Comedy"
+          }
+        }
+      ],
+      "must_not": [ ],
+      "should": [ ]
+    }
+  },
+  "from": 0,
+  "size": 10,
+  "sort": [ ],
+  "aggs": {
+    "films": {
+      "terms": {
+        "field": "director"
+      }
+    }
+  }
+}
