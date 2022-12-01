@@ -10,8 +10,8 @@ import json
 import re
 
 
-DB_PATH = "MovieGenreIGC_v3.xlsx"
-OUTPUT = "output3.json"
+DB_PATH = "data/MovieGenreIGC_v3.xlsx"
+OUTPUT = "data/bulk_data.json"
 
 # Define variable to load the dataframe
 dataframe = openpyxl.load_workbook(DB_PATH)
@@ -106,23 +106,17 @@ def main():
                     file.write("\n")
 
                     json.dump({
-                        'movie_title': result["title"],
-                        'movie_director': result["director"],
-                        'movie_year': result["year"],
-                        'movie_description': result["description"],
-                        'movie_genres': result['genres'],
-                        "movie-lgbt": result["lgbt"]
+                        'title': result["title"],
+                        'director': result["director"],
+                        'year': result["year"],
+                        'description': result["description"],
+                        'genres': result['genres'],
+                        "lgbt": result["lgbt"]
                         }, file)
 
                     file.write("\n")
                 
                 idCount += 1
-
-            
-    #with open(OUTPUT, 'w') as file:
-        #json.dump(data, file)
-
-    pass
 
 
 def test():
