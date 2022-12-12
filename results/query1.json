@@ -1,5 +1,5 @@
 {
-  "took" : 18,
+  "took" : 14,
   "timed_out" : false,
   "_shards" : {
     "total" : 1,
@@ -9,10 +9,874 @@
   },
   "hits" : {
     "total" : {
-      "value" : 0,
+      "value" : 172,
       "relation" : "eq"
     },
-    "max_score" : null,
-    "hits" : [ ]
+    "max_score" : 13.668262,
+    "hits" : [
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "7624",
+        "_score" : 13.668262,
+        "_source" : {
+          "title" : "Valter brani Sarajevo",
+          "director" : "Hajrudin Krvavac",
+          "year" : "1972",
+          "description" : "A man who tried to stop Nazi soldiers in World War II.",
+          "genres" : [
+            "Action",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "7893",
+        "_score" : 13.1406,
+        "_source" : {
+          "title" : "V boy idut odni 'stariki'",
+          "director" : "Leonid Bykov",
+          "year" : "1974",
+          "description" : "During World War II, a Soviet veteran pilot teaches to newcomers that war is transient, and music is eternal.",
+          "genres" : [
+            "Comedy",
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "7932",
+        "_score" : 12.986733,
+        "_source" : {
+          "title" : "Nu ji zhong ying",
+          "director" : "Chih-Hung Kuei",
+          "year" : "1973",
+          "description" : "A nurse in a Japanese women's POW camp during World War II masterminds an escapee.",
+          "genres" : [
+            "Action",
+            "Drama",
+            "Thriller"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6422",
+        "_score" : 12.645117,
+        "_source" : {
+          "title" : "Spalovac mrtvol",
+          "director" : "Juraj Herz",
+          "year" : "1969",
+          "description" : "Set in Central Europe during World War II, a demented cremator believes cremation relieves earthly suffering and sets out to save the world.",
+          "genres" : [
+            "Comedy",
+            "Crime",
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5317",
+        "_score" : 12.568926,
+        "_source" : {
+          "title" : "The Victors",
+          "director" : "Carl Foreman",
+          "year" : "1963",
+          "description" : "Intelligent, sprawling saga of a squad of American soldiers, following them through Europe during World War II.",
+          "genres" : [
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "8915",
+        "_score" : 12.568926,
+        "_source" : {
+          "title" : "Soldaat van Oranje",
+          "director" : "Paul Verhoeven",
+          "year" : "1977",
+          "description" : "During World War II, Dutch students join the resistance movement against the German occupation of the Netherlands.",
+          "genres" : [
+            "Drama",
+            "Romance",
+            "Thriller"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6428",
+        "_score" : 12.369943,
+        "_source" : {
+          "title" : "The Subject Was Roses",
+          "director" : "Ulu Grosbard",
+          "year" : "1968",
+          "description" : "A young man returning home from World War II finds himself caught up in his parents' turbulent relationship.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6429",
+        "_score" : 12.369943,
+        "_source" : {
+          "title" : "Submarine X-1",
+          "director" : "William A. Graham",
+          "year" : "1968",
+          "description" : "During World War II, the British Royal Navy used experimental midget submarines to raid German warships in Norway.",
+          "genres" : [
+            "Action",
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "8129",
+        "_score" : 12.369943,
+        "_source" : {
+          "title" : "Stavisky...",
+          "director" : "Alain Resnais",
+          "year" : "1974",
+          "description" : "A swindler's activity indirectly caused a political crisis in France in the last years before World War II.",
+          "genres" : [
+            "Biography",
+            "Crime",
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "8372",
+        "_score" : 10.827256,
+        "_source" : {
+          "title" : "Salò o le 120 giornate di Sodoma",
+          "director" : "Pier Paolo Pasolini",
+          "year" : "1975",
+          "description" : "In World War II Italy, four fascist libertines round up nine adolescent boys and girls and subject them to 120 days of physical, mental, and sexual torture.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5613",
+        "_score" : 10.395123,
+        "_source" : {
+          "title" : "King Rat",
+          "director" : "Bryan Forbes",
+          "year" : "1965",
+          "description" : "Fast-talking wheeler-dealer Corporal King is stuck in a Malaysian P.O.W. camp during World War II and uses bribery and larceny to take de-facto control of the camp.",
+          "genres" : [
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5896",
+        "_score" : 10.395123,
+        "_source" : {
+          "title" : "The Psychopath",
+          "director" : "Freddie Francis",
+          "year" : "1966",
+          "description" : "Four men who were involved in the investigation of a German millionaire at the end of World War II are found murdered with tiny dolls left next to their corpses.",
+          "genres" : [
+            "Crime",
+            "Horror",
+            "Mystery"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6223",
+        "_score" : 10.395123,
+        "_source" : {
+          "title" : "Attack on the Iron Coast",
+          "director" : "Paul Wendkos",
+          "year" : "1968",
+          "description" : "During World War II, a commando leader named Major Jamie Wilson leads a group of soldiers on a suicide mission to destroy a Nazi naval stronghold on the French coast.",
+          "genres" : [
+            "Action",
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6869",
+        "_score" : 10.395123,
+        "_source" : {
+          "title" : "Jak rozpetalem druga wojne swiatowa",
+          "director" : "Tadeusz Chmielewski",
+          "year" : "1970",
+          "description" : "The adventures of unlucky Polish soldier Franek Dolas during world war II. In September he escapes from Stalag and goes to France. After that he fights in Africa and Europe.",
+          "genres" : [
+            "Adventure",
+            "Comedy",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6189",
+        "_score" : 10.1257,
+        "_source" : {
+          "title" : "La vingt-cinquième heure",
+          "director" : "Henri Verneuil",
+          "year" : "1967",
+          "description" : "In World War II, a Romanian gentile peasant is denounced by the village gendarme and sent to a concentration camp for Jews where, due to an error, he's drafted into the S.S.",
+          "genres" : [
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "7886",
+        "_score" : 10.1257,
+        "_source" : {
+          "title" : "The Triple Echo",
+          "director" : "Michael Apted",
+          "year" : "1972",
+          "description" : "During World War II, a deserting soldier dresses as a woman to escape detection, hiding at a farm run by a POW's wife, but is soon hit-on by a lusty sergeant.",
+          "genres" : [
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6664",
+        "_score" : 9.509526,
+        "_source" : {
+          "title" : "Quella dannata pattuglia",
+          "director" : "Roberto Bianchi Montero",
+          "year" : "1969",
+          "description" : "After landing in North Africa in World War II, a group of soldiers led by Capt. Bruce Clay is assigned to attack an enemy position in order to destroy a large oil storage cellar in the desert.",
+          "genres" : [
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "7104",
+        "_score" : 9.509526,
+        "_source" : {
+          "title" : "Emitaï",
+          "director" : "Ousmane Sembene",
+          "year" : "1971",
+          "description" : "As World War II is going on in Europe, a conflict arises between the French and the Diola-speaking tribe of Africa, prompting the village women to organize their men to sit beneath a tree to pray.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5925",
+        "_score" : 9.174549,
+        "_source" : {
+          "title" : "Starshaya sestra",
+          "director" : "Georgi Natanson",
+          "year" : "1967",
+          "description" : "The film revolves around two sisters, who were orphaned during the World War II and then found and brought up by their uncle. The older sister Nadya wants to be an actor, but she feels responsible for her younger sister Lida.",
+          "genres" : [
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5006",
+        "_score" : 8.958518,
+        "_source" : {
+          "title" : "I due colonnelli",
+          "director" : "Steno",
+          "year" : "1963",
+          "description" : "In WWII Greece, two enemy Colonels, one Italian and the other English, develop a grudging friendship which the war will test.",
+          "genres" : [
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6535",
+        "_score" : 8.386747,
+        "_source" : {
+          "title" : "Dzhamilya",
+          "director" : "Irina Poplavskaya",
+          "year" : "1969",
+          "description" : "Dzhamiliya lives in a kirghizian village. She follows their parents' orders when she marries a man without loving him. Then World War II breaks out and her new husband has to leave the village. While being alone Dzhamiliya meets the returning soldier Daniyar and falls in love with him.",
+          "genres" : [
+            "Drama",
+            "Romance",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6559",
+        "_score" : 7.8216443,
+        "_source" : {
+          "title" : "Gott mit uns (Dio è con noi)",
+          "director" : "Giuliano Montaldo",
+          "year" : "1970",
+          "description" : "At the end of WW II, German deserters are tried for desertion by fellow POWs inside a prisoner of war camp for Germans.",
+          "genres" : [
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "7190",
+        "_score" : 7.8061295,
+        "_source" : {
+          "title" : "Murphy's War",
+          "director" : "Peter Yates",
+          "year" : "1971",
+          "description" : "A lone survivor from a British naval ship is obsessed with getting revenge on a German U-boat crew that massacred his shipmates in the water.",
+          "genres" : [
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "8596",
+        "_score" : 7.455215,
+        "_source" : {
+          "title" : "La victoire en chantant",
+          "director" : "Jean-Jacques Annaud",
+          "year" : "1976",
+          "description" : "During World War I, French colonists lost in African desert decide to attack their German neighbors.",
+          "genres" : [
+            "Comedy",
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5097",
+        "_score" : 7.4297743,
+        "_source" : {
+          "title" : "Le quattro giornate di Napoli",
+          "director" : "Nanni Loy",
+          "year" : "1962",
+          "description" : "The film shows the history of the Neapolitan popular revolt against the invading Germans during World War II. During the four days in Naples, the revolt turns over in just a few hours. Neapolitans slung on rifles and guns or armed themselves with stones, house-objects, gasoline-bottles, anything and everything, anonymous and silent. Gennarino Capuozzo, a 10-year-old k... Read all",
+          "genres" : [
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5091",
+        "_score" : 7.335291,
+        "_source" : {
+          "title" : "Pojat",
+          "director" : "Mikko Niskanen",
+          "year" : "1962",
+          "description" : "A group of mischievous Finnish boys experience the ups and downs of life during World War 2.",
+          "genres" : [
+            "Comedy",
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "7320",
+        "_score" : 7.2140446,
+        "_source" : {
+          "title" : "...A zori zdes tikhie",
+          "director" : "Stanislav Rostotskiy",
+          "year" : "1972",
+          "description" : "During WWII in a small village outpost, a commander has his troop replaced by an all female unit. As they finally begin to appreciate one another, German paratroopers are spotted nearby and the realities of war emerge.",
+          "genres" : [
+            "Drama",
+            "History",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5331",
+        "_score" : 7.106656,
+        "_source" : {
+          "title" : "The 7th Dawn",
+          "director" : "Lewis Gilbert",
+          "year" : "1964",
+          "description" : "Political and personal intrigues surround a group of characters in Malaya, after the close of the Second World War.",
+          "genres" : [
+            "Adventure",
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6492",
+        "_score" : 7.106656,
+        "_source" : {
+          "title" : "Bitka na Neretvi",
+          "director" : "Veljko Bulajic",
+          "year" : "1969",
+          "description" : "World war two drama about the 1943 battle around the Neretva River between Axis forces and Yugoslav partisan units.",
+          "genres" : [
+            "Drama",
+            "History",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "7278",
+        "_score" : 6.904545,
+        "_source" : {
+          "title" : "Trzecia czesc nocy",
+          "director" : "Andrzej Zulawski",
+          "year" : "1971",
+          "description" : "Set during the occupation of Poland during World War II. Some German soldiers, slaughter a woman, her son and daughter-in-law. The husband and his father escape by being in the forest. The young man decides to join the resistance but at the first meeting Gestapo kills his go-between and chase him. During his escape he gets into an apartment of a pregnant woman and hel... Read all",
+          "genres" : [
+            "Drama",
+            "Horror",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5422",
+        "_score" : 6.8918433,
+        "_source" : {
+          "title" : "Kradetzat na praskovi",
+          "director" : "Vulo Radev",
+          "year" : "1964",
+          "description" : "A wife of a Bulgarian Army officer falls in love with a Serbian prisoner at the end of World war I.",
+          "genres" : [
+            "Drama",
+            "Romance",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5040",
+        "_score" : 6.7892337,
+        "_source" : {
+          "title" : "La jetée",
+          "director" : "Chris Marker",
+          "year" : "1962",
+          "description" : "The story of a man forced to explore his memories in the wake of World War III's devastation, told through still images.",
+          "genres" : [
+            "Short",
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5473",
+        "_score" : 6.7892337,
+        "_source" : {
+          "title" : "La ronde",
+          "director" : "Roger Vadim",
+          "year" : "1964",
+          "description" : "A bed-hopping coterie of soldiers, prostitutes, maids, actors, and aristocrats swap lovers amid the opulence of pre-World War I Europe.",
+          "genres" : [
+            "Drama",
+            "History",
+            "Romance"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6997",
+        "_score" : 6.498955,
+        "_source" : {
+          "title" : "Uomini contro",
+          "director" : "Francesco Rosi",
+          "year" : "1970",
+          "description" : "On the Italian/Austrian front during World War I, a disastrous Italian attack upon the Austrian positions leads to a mutiny among the Italian troops.",
+          "genres" : [
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6646",
+        "_score" : 6.318844,
+        "_source" : {
+          "title" : "Oh! What a Lovely War",
+          "director" : "Richard Attenborough",
+          "year" : "1969",
+          "description" : "The working-class Smiths change their initially sunny views on World War I after the three boys of the family witness the harsh reality of trench warfare.",
+          "genres" : [
+            "Comedy",
+            "Musical",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5184",
+        "_score" : 6.295565,
+        "_source" : {
+          "title" : "The Cool World",
+          "director" : "Shirley Clarke",
+          "year" : "1963",
+          "description" : "A look at the horrors of Harlem ghetto slum life filled with drugs, violence, human misery, and a sense of despair due to the racial prejudices of American society.",
+          "genres" : [
+            "Crime",
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5954",
+        "_score" : 5.971738,
+        "_source" : {
+          "title" : "Voyna i mir II: Natasha Rostova",
+          "director" : "Sergey Bondarchuk",
+          "year" : "1966",
+          "description" : "Natasha Rostova, a young Russian aristocrat, meets prince Andrey Bolkonskiy at a ball and immediately falls in love with him.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "4858",
+        "_score" : 5.906963,
+        "_source" : {
+          "title" : "Il federale",
+          "director" : "Luciano Salce",
+          "year" : "1961",
+          "description" : "The quest of a fascist soldier whose mission is to catch a political enemy during the end of the WWII.",
+          "genres" : [
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6093",
+        "_score" : 5.5706534,
+        "_source" : {
+          "title" : "It's a Bikini World",
+          "director" : "Stephanie Rothman",
+          "year" : "1967",
+          "description" : "Male chauvinist Mike attempts to get an intelligent burgeoning feminist Delilah into his harem. When she resists, Mike then poses as his brother Herbert, but in the process falls in love with Delilah.",
+          "genres" : [
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5038",
+        "_score" : 5.565352,
+        "_source" : {
+          "title" : "Ivanovo detstvo",
+          "director" : "Andrei Tarkovsky",
+          "year" : "1962",
+          "description" : "During WWII, Soviet orphan Ivan Bondarev strikes up a friendship with three sympathetic Soviet officers while working as a scout behind the German lines.",
+          "genres" : [
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5417",
+        "_score" : 5.4179316,
+        "_source" : {
+          "title" : "King & Country",
+          "director" : "Joseph Losey",
+          "year" : "1964",
+          "description" : "During World War I, Army Private Arthur James Hamp is accused of desertion during battle. The officer assigned to defend him at his court-martial, Captain Hargreaves, finds out there is more to the case than meets the eye.",
+          "genres" : [
+            "Drama",
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "6593",
+        "_score" : 5.4179316,
+        "_source" : {
+          "title" : "Die Konferenz der Tiere",
+          "director" : "Curt Linda",
+          "year" : "1969",
+          "description" : "In this colorful satire, the first German feature-length animated film of the post-war era, the animals of the world want peace on earth. They call a big conference to which representatives of every animal species must attend.",
+          "genres" : [
+            "Animation"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "8833",
+        "_score" : 5.261093,
+        "_source" : {
+          "title" : "Oi kynigoi",
+          "director" : "Theodoros Angelopoulos",
+          "year" : "1977",
+          "description" : "On New Year's Eve, a group of hunters finds the frozen body of a dead WWII partisan fighter. They spend the night debating what to do with it.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "8770",
+        "_score" : 4.9883776,
+        "_source" : {
+          "title" : "Death Force",
+          "director" : "Cirio H. Santiago",
+          "year" : "1978",
+          "description" : "An American Vietnam soldier on his way home is left for dead and is saved by a pair of Japanese stragglers from WWII, who train him in the way of the samurai.",
+          "genres" : [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "7128",
+        "_score" : 4.9683084,
+        "_source" : {
+          "title" : "The Hellstrom Chronicle",
+          "director" : "Walon Green",
+          "year" : "1971",
+          "description" : "A scientist explains how the savagery and efficiency of the insect world could result in their taking over the world.",
+          "genres" : [
+            "Documentary",
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "7629",
+        "_score" : 4.8837423,
+        "_source" : {
+          "title" : "The War Between Men and Women",
+          "director" : "Melville Shavelson",
+          "year" : "1972",
+          "description" : "A sarcastic, near-sighted cartoonist averse to commitment, falls for an eye-catching brunette single mother of three, the only woman who can stand his strong anti-feminist opinions, and eventually moves in with her and proposes.",
+          "genres" : [
+            "Comedy",
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5523",
+        "_score" : 4.8623543,
+        "_source" : {
+          "title" : "La 317ème section",
+          "director" : "Pierre Schoendoerffer",
+          "year" : "1965",
+          "description" : "In Vietnam, 1954, a French platoon isolated behind enemy lines tries to come back. It is led by the inexperienced, idealistic sous-lieutenant Torrens, and by adjutant Willsdorf, a WWII veteran of the Wehrmacht.",
+          "genres" : [
+            "War"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "8375",
+        "_score" : 4.7425413,
+        "_source" : {
+          "title" : "Section spéciale",
+          "director" : "Costa-Gavras",
+          "year" : "1975",
+          "description" : "In occupied France during the WWII, a German officer is murdered. The collaborationist Vichy government decides to pin the murder on six petty criminals. Loyal judges are called in to convict them as quickly as possible.",
+          "genres" : [
+            "Drama",
+            "History",
+            "Thriller"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5587",
+        "_score" : 4.684822,
+        "_source" : {
+          "title" : "Frankenstein tai Baragon",
+          "director" : "Ishirô Honda",
+          "year" : "1965",
+          "description" : "Near the end of WWII, Germans transport the immortal heart of Frankenstein's monster to Japan, where it is seeming lost in the bombing of Hiroshima. Years later a wild boy is found, born from the immortal heart.",
+          "genres" : [
+            "Horror",
+            "Sci-Fi",
+            "Thriller"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "5749",
+        "_score" : 4.5279083,
+        "_source" : {
+          "title" : "Around the World Under the Sea",
+          "director" : "Andrew Marton",
+          "year" : "1966",
+          "description" : "The crew of a five-man submarine travels the world oceans, planting sensors on the ocean floor to warn scientists of any impending earthquakes.",
+          "genres" : [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+          ],
+          "lgbt" : false
+        }
+      }
+    ]
   }
 }
