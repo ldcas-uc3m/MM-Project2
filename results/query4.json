@@ -1,0 +1,918 @@
+{
+  "took" : 19,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 135,
+      "relation" : "eq"
+    },
+    "max_score" : 3.5448556,
+    "hits" : [
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "15",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Historias tenebrosas",
+          "director" : "Richard Oswald",
+          "year" : "1919",
+          "description" : "A demon, a reaper, and the ghost of a prostitute read gothic short stories and act them out.",
+          "genres" : [
+            "Fantasy",
+            "Horror",
+            "Mystery"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "118",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Scaramouche",
+          "director" : "Rex Ingram",
+          "year" : "1923",
+          "description" : "When a nobleman murders his best friend, a lawyer becomes a revolutionary with his heart set on vengeance.",
+          "genres" : [
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "184",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Parisian Love",
+          "director" : "Louis J. Gasnier",
+          "year" : "1925",
+          "description" : "Street people Armand and Marie are madly in love, and she persuades Armand and other gang members to rob the home of Pierre Marcel, a wealthy scientist. The police break up the robbery but Pierre hides Armand from them because he kept a gang member from stabbing him, but Armand is wounded in doing so. When Armand regains his health, Pierre takes him around town and in... Read all",
+          "genres" : [
+            "Crime",
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "207",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "La estudiante",
+          "director" : "Jack Conway",
+          "year" : "1926",
+          "description" : "Tom Brown shows up at Harvard, confident and a bit arrogant. He becomes a rival of Bob McAndrew, not only in football and rowing crew, but also for the affections of Mary Abbott, a professor's daughter.",
+          "genres" : [
+            "Action",
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "219",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "El enemigo de las rubias",
+          "director" : "Alfred Hitchcock",
+          "year" : "1927",
+          "description" : "A landlady suspects that her new lodger is the madman killing women in London.",
+          "genres" : [
+            "Crime",
+            "Drama",
+            "Mystery"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "238",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "El cadete de West Point",
+          "director" : "Edward Sedgwick",
+          "year" : "1927",
+          "description" : "Wealthy Brice Wayne enters West Point and, though he does well on the football field, angers fellow cadets with his arrogance. Disciplined by the coach he yells \"To hell with the Corps!\" which would have led to further discipline but for the intervention of his hero-worshipping roommate \"Tex.\" He resigns anyway, but just before the big game returns to lead his team an... Read all",
+          "genres" : [
+            "Drama",
+            "Romance",
+            "Sport"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "303",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Cadenas (La tragedia de los sexos)",
+          "director" : "William Dieterle",
+          "year" : "1928",
+          "description" : "A young man is convicted of manslaughter and sentenced to a term in prison. There he forms a close relationship with his cellmate and upon his release his wife is concerned as to how prison has changed the man she married.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "314",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "La dama misteriosa",
+          "director" : "Fred Niblo",
+          "year" : "1928",
+          "description" : "An attractive Russian spy seduces an Austrian officer in order to get some important plans, but when she actually falls in love with him, both of them are placed in a dangerous situation.",
+          "genres" : [
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "315",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "El undécimo año",
+          "director" : "Dziga Vertov",
+          "year" : "1927",
+          "description" : "This documentary film is showing the hard labor of countrymen in industrial production to strengthen the U.S.S.R. economy and turning their country into a world power.",
+          "genres" : [
+            "Documentary"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "323",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "The Smart Set",
+          "director" : "Jack Conway",
+          "year" : "1928",
+          "description" : "An American polo player, arrogant and full of himself, must vindicate his actions to win the heart of a girl, Polly, after getting himself booted off the U.S. polo team.",
+          "genres" : [
+            "Comedy",
+            "Romance",
+            "Sport"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "361",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "El canto del desierto",
+          "director" : "Roy Del Ruth",
+          "year" : "1929",
+          "description" : "The Desert Song is a 1929 American Pre-Code operetta film directed by Roy Del Ruth and starring John Boles, Louise Fazenda, and Myrna Loy.",
+          "genres" : [
+            "Action",
+            "Musical",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "450",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Seamos alegres",
+          "director" : "Robert Z. Leonard",
+          "year" : "1930",
+          "description" : "Dowdy housewife Kitty dotes on her self-centered husband but divorces him when his mistress shows up at their home one day to break up their marriage. Bob had become bored with her lackluster appearance, their children and himself. Kitty re-invents herself and becomes a Continental favorite, dressing like a fashion model and behaving gaily. Three years after their div... Read all",
+          "genres" : [
+            "Comedy",
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "460",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Una mujer de despacho",
+          "director" : "Lloyd Bacon",
+          "year" : "1930",
+          "description" : "Larry Fellowes of Fellowes Publishing wants Kate to write her next book about the 'Office Wife'. The personal secretary/stenographer spends more time with the busy executive and makes more decisions than his wife ever will. This creates a bond between the secretary and boss that the wife cannot hope to equal. What Larry doesn't know is that sometimes literature mirror... Read all",
+          "genres" : [
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "474",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "La esposa de noche",
+          "director" : "Yasujirô Ozu",
+          "year" : "1930",
+          "description" : "A desperate man with a sick daughter decides to commit a robbery in order to help her. He begins to feel remorse though, which makes him question his decision.",
+          "genres" : [
+            "Crime",
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "546",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Muchachas de uniforme",
+          "director" : "Leontine Sagan",
+          "year" : "1931",
+          "description" : "At an all-girls boarding school, Manuela falls in love with a teacher, to terrific consequences.",
+          "genres" : [
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "572",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "El coro de Tokyo",
+          "director" : "Yasujirô Ozu",
+          "year" : "1931",
+          "description" : "A married Tokyo man faces unemployment after standing up for an older colleague.",
+          "genres" : [
+            "Comedy",
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "596",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Sangre rebelde",
+          "director" : "John Francis Dillon",
+          "year" : "1932",
+          "description" : "Sexy Texas gal storms her way through life, brawling and boozing until her luck runs out, forcing her to learn the errors of her ways.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "644",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Cinemanía",
+          "director" : "Clyde Bruckman",
+          "year" : "1932",
+          "description" : "After a mix-up with his application photograph, an aspiring actor is invited to a test screening and goes off to Hollywood.",
+          "genres" : [
+            "Comedy",
+            "Family",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "727",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Fantasía pasajera",
+          "director" : "Yasujirô Ozu",
+          "year" : "1933",
+          "description" : "Two Tokyo co-workers come across a destitute young lady in search of a place to live.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "753",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "La mujer proscrita",
+          "director" : "Yasujirô Ozu",
+          "year" : "1933",
+          "description" : "A gangster tries to find redemption with the inadvertent help of an innocent shop girl and his jealous girlfriend will do anything to keep him.",
+          "genres" : [
+            "Crime",
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "755",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Tú eres mío",
+          "director" : "Sam Wood",
+          "year" : "1933",
+          "description" : "A woman is sent to a reformatory when her con artist lover flees after killing a man during a botched blackmail scheme.",
+          "genres" : [
+            "Crime",
+            "Drama",
+            "Music"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "765",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Amoríos",
+          "director" : "Max Ophüls",
+          "year" : "1933",
+          "description" : "Vienna in the beginning of the twentieth century. Cavalry Lieutenant Fritz Lobheimer is about to end his affair with Baroness Eggerdorff when he meets the young Christine, the daughter of an opera violinist. Baron Eggerdorff however soon hears of his past misfortune...",
+          "genres" : [
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "779",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Vuelo nocturno",
+          "director" : "Clarence Brown",
+          "year" : "1933",
+          "description" : "Polio breaks out in Rio de Janeiro, the serum is in Santiago and there's only one way to get the medicine where it's desperately needed: flown in by daring pilots who risk the treacherous weather and forbidding peaks of the Andes.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "819",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Una mujer de Tokyo",
+          "director" : "Yasujirô Ozu",
+          "year" : "1933",
+          "description" : "Ryoichi and Chikako are brother and sister. They live together. Chikako works during the day in an office and at night she prostitutes herself to fund her brother's studies at the university. Ryoichi doesn't know about his sister's secret life, but he is dating Harue whose brother is a policeman.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "842",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "No es pecado",
+          "director" : "Leo McCarey",
+          "year" : "1934",
+          "description" : "Ruby Carter, the American Beauty queen of the night club-sporting world, shifts her operations from St. Louis to New Orleans, mostly to get away from prizefighter Tiger Kid. Installed as the prize attraction of \"The Sensation Club\", ran by Ace Lamont, she quickly becomes the toast of the town and also marked as personal property by Ace, arousing the fury of Ace's form... Read all",
+          "genres" : [
+            "Comedy",
+            "Drama",
+            "Musical"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "851",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "La garra del gato",
+          "director" : "Sam Taylor",
+          "year" : "1934",
+          "description" : "A naive missionary brought up in China returns to America to seek a wife. Corrupt politicians enlist him to run for mayor as a dummy candidate with no chance of winning.",
+          "genres" : [
+            "Comedy"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "870",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Busco un millonario",
+          "director" : "Jack Conway",
+          "year" : "1934",
+          "description" : "Chorus girl Eadie is determined to marry a millionaire without sacrificing her virtue.",
+          "genres" : [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "875",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Amad a la madre",
+          "director" : "Yasujirô Ozu",
+          "year" : "1934",
+          "description" : "Two half-brothers try to cope with the loss of their father.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "940",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "En la pendiente",
+          "director" : "William K. Howard",
+          "year" : "1934",
+          "description" : "A family man. (Lionel Barrymore) becomes innocently involved in an embezzlement.",
+          "genres" : [
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "946",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Historia de las hierbas flotantes",
+          "director" : "Yasujirô Ozu",
+          "year" : "1934",
+          "description" : "A kabuki actor's mistress hatches a jealous plot to bring down her lover's son.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "955",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Wonder Bar",
+          "director" : "Lloyd Bacon",
+          "year" : "1934",
+          "description" : "Harry and Inez are a dance team at the Wonder Bar. Inez loves Harry, but he is in love with Liane, the wife of a wealthy business man. Al Wonder and the conductor/singer Tommy are in love with Inez. When Inez finds out, that Harry wants to leave Paris and is going to the USA with Liane she kills him.",
+          "genres" : [
+            "Crime",
+            "Drama",
+            "Musical"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "996",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Las cruzadas",
+          "director" : "Cecil B. DeMille",
+          "year" : "1935",
+          "description" : "King Richard and the Third Crusade (1190-1192) are given the DeMille treatment with more spectacle than history.",
+          "genres" : [
+            "Adventure",
+            "Drama",
+            "History"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "1077",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Un albergue en Tokyo",
+          "director" : "Yasujirô Ozu",
+          "year" : "1935",
+          "description" : "Unemployed Kihachi and his two sons struggle to make ends meet. But that doesn't keep Kihachi from wooing single mother Otaka.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "1145",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "El hijo único",
+          "director" : "Yasujirô Ozu",
+          "year" : "1936",
+          "description" : "A widow sends her only son away to receive a better education. Years later, she visits him, finding him a poor school teacher with a wife and son.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "1298",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "El hombre que fabricaba milagros",
+          "director" : "Lothar Mendes",
+          "year" : "1936",
+          "description" : "An ordinary man suddenly finds that anything he says comes true. Or at least, almost anything.",
+          "genres" : [
+            "Comedy",
+            "Family",
+            "Fantasy"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "1324",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "¿Qué ha olvidado la señora?",
+          "director" : "Yasujirô Ozu",
+          "year" : "1937",
+          "description" : "An affluent medical professor, Komiya, and his bossy wife, Tokio, are to look after Setsuko, their high-spirited niece from Osaka. Setsuko is a liberated woman who does what she wants, including smoking, even though she is a minor. On Saturday, the professor does not feel like going to his weekend golf game, but his wife packs him off anyway. So he leaves his bag at t... Read all",
+          "genres" : [
+            "Comedy",
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "1763",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Los diamantes del halcón",
+          "director" : "Irving Reis",
+          "year" : "1942",
+          "description" : "A scientist has discovered how to make synthetic diamonds and a criminal gang (closely pursued by the Falcon) are out to discover the formula.",
+          "genres" : [
+            "Crime",
+            "Drama",
+            "Film-Noir"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "1776",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "La llama de Nueva Orleans",
+          "director" : "René Clair",
+          "year" : "1941",
+          "description" : "In old New Orleans, a beautiful adventuress juggles the attentions of a rich banker and a dashing sea captain.",
+          "genres" : [
+            "Adventure",
+            "Comedy",
+            "Music"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "1863",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Hermanos y hermanas de la familia Toda",
+          "director" : "Yasujirô Ozu",
+          "year" : "1941",
+          "description" : "When the patriarch of the Toda family suddenly dies, his widow discovers that he has left her with nothing but debt and married children who are unwilling to support her--except for her most thoughtful son, just returned from China.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "1898",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Había un padre",
+          "director" : "Yasujirô Ozu",
+          "year" : "1942",
+          "description" : "A school-teacher struggles to raise his son Ryohei by himself, despite having neither money nor prospects.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "1900",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Trágica sugestión",
+          "director" : "John Harlow",
+          "year" : "1943",
+          "description" : "A struggling circus finds salvation in the form of an exciting new twist on their high-wire act.",
+          "genres" : [
+            "Drama",
+            "Thriller"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "1986",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Todos besaron a la novia",
+          "director" : "Alexander Hall",
+          "year" : "1942",
+          "description" : "Divine Crawford who gives all - in this really funny comedy , she donated all her salary from this movie to the Red Cross after Carole Lombard's plane crashed .",
+          "genres" : [
+            "Comedy",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "2114",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Tres días de amor y de fe",
+          "director" : "Frank Borzage",
+          "year" : "1943",
+          "description" : "\"Dakota\" Smith (William Terry), a young soldier on a pass in New York City, visits the famed Stage Door Canteen, where famous stars of the theatre and movies appear and host a recreational center for servicemen during the war. Dakota meets a pretty young hostess, Eileen Burke (Cheryl Walker), and they enjoy the many entertainers and a growing romance.",
+          "genres" : [
+            "Comedy",
+            "Music",
+            "Musical"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "2519",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Fireworks",
+          "director" : "Kenneth Anger",
+          "year" : "1947",
+          "description" : "A dissatisfied dreamer awakes, goes out in the night seeking a 'light' and is drawn through the needle's eye. A dream of a dream, he returns to bed less empty than before.",
+          "genres" : [
+            "Short",
+            "Drama",
+            "Horror"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "2562",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Historia de un vecindario",
+          "director" : "Yasujirô Ozu",
+          "year" : "1947",
+          "description" : "A young boy follows Tashiro home to his tenement housing complex on the outskirts of Tokyo, the boy who was separated from his carpenter father somehow and somewhere in Kudan. All Tashiro knows is that the boy and his father came to town from Chigasaki that morning. Despite Tashiro's want to house the kid until they decide what to do more permanently, Tashiro's roomma... Read all",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "2660",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Una gallina al viento",
+          "director" : "Yasujirô Ozu",
+          "year" : "1948",
+          "description" : "A man returns from World War II to find his desperate wife had resorted to one night of prostitution to pay for their son's hospital bills.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "2680",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Mi querida secretaria",
+          "director" : "Charles Martin",
+          "year" : "1948",
+          "description" : "A romance novelist appoints a would-be writer as his secretary. Although she is initially dismayed by his work ethic and playboy attitude, they begin to fall in love.",
+          "genres" : [
+            "Comedy",
+            "Romance"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "2974",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Las hermanas Munekata",
+          "director" : "Yasujirô Ozu",
+          "year" : "1950",
+          "description" : "Setsuko is unhappily married to Mimura, an engineer with no job and a drinking habit. She's always been in love with Hiroshi, but he left for France years ago without proposing. Now he is back and Mariko (Setsuko's sister) tries to reunite them, although secretly she loves him too.",
+          "genres" : [
+            "Drama"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "3070",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "Cimarron Kid",
+          "director" : "Budd Boetticher",
+          "year" : "1952",
+          "description" : "Unjustly accused of robbing the train he was riding home, Bill Doolin re-joins his old gang, participates in other robberies and becomes a wanted outlaw.",
+          "genres" : [
+            "Western"
+          ],
+          "lgbt" : true
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "3142",
+        "_score" : 3.5448556,
+        "_source" : {
+          "title" : "One Wild Oat",
+          "director" : "Charles Saunders",
+          "year" : "1951",
+          "description" : "A barrister attempts to discourage his daughter's infatuation for a philanderer, by revealing his past. The plan backfires when the daughter's would-be father-in-law threatens to reveal the barrister's shady background.",
+          "genres" : [
+            "Comedy"
+          ],
+          "lgbt" : true
+        }
+      }
+    ]
+  },
+  "aggregations" : {
+    "films-per-year" : {
+      "doc_count_error_upper_bound" : 0,
+      "sum_other_doc_count" : 77,
+      "buckets" : [
+        {
+          "key" : 1934,
+          "doc_count" : 7
+        },
+        {
+          "key" : 1976,
+          "doc_count" : 7
+        },
+        {
+          "key" : 1933,
+          "doc_count" : 6
+        },
+        {
+          "key" : 1969,
+          "doc_count" : 6
+        },
+        {
+          "key" : 1971,
+          "doc_count" : 6
+        },
+        {
+          "key" : 1973,
+          "doc_count" : 6
+        },
+        {
+          "key" : 1962,
+          "doc_count" : 5
+        },
+        {
+          "key" : 1965,
+          "doc_count" : 5
+        },
+        {
+          "key" : 1974,
+          "doc_count" : 5
+        },
+        {
+          "key" : 1975,
+          "doc_count" : 5
+        }
+      ]
+    }
+  }
+}

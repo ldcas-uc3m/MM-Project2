@@ -1,0 +1,936 @@
+{
+  "took" : 12,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 1478,
+      "relation" : "eq"
+    },
+    "max_score" : 1.47552,
+    "hits" : [
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "0",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Papá piernas largas",
+          "director" : "Marshall Neilan",
+          "year" : "1919",
+          "description" : "An orphan discovers that she has an anonymous benefactor who is willing to pay her college tuition, unaware he's the same man who has been romantically pursuing her.",
+          "genres" : [
+            "Comedy",
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "1",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Un día de juerga",
+          "director" : "Charles Chaplin",
+          "year" : "1919",
+          "description" : "A father takes his family for an outing, which turns out to be a ridiculous trial.",
+          "genres" : [
+            "Short",
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "2",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "No cambies de esposo",
+          "director" : "Cecil B. DeMille",
+          "year" : "1919",
+          "description" : "Leila Porter comes to dislike her husband James, a glue king who is always eating onions and looking sloppy. But after she divorces him and marries two-timing playboy Schuyler Van Sutphen the now-reformed James looks pretty good.",
+          "genres" : [
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "3",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Fatty en el garaje",
+          "director" : "Roscoe 'Fatty' Arbuckle",
+          "year" : "1920",
+          "description" : "Roscoe and Buster operate a combination garage and fire station. In the first half they destroy a car left for them to clean. In the second half they go off on a false alarm and return to find their own building on fire.",
+          "genres" : [
+            "Short",
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "7",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "The Hoodlum",
+          "director" : "Sidney Franklin",
+          "year" : "1919",
+          "description" : "A spoiled young rich girl is forced by misfortune to fight for survival in the slums and alleys, where she becomes involved with all manner of unpleasantness.",
+          "genres" : [
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "8",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "No quiero ser un hombre",
+          "director" : "Ernst Lubitsch",
+          "year" : "1918",
+          "description" : "A teenaged tomboy, tired of being bossed around by her strict guardian, impersonates a man so she can have more fun, but discovers that being the opposite sex isn't as easy as she had hoped.",
+          "genres" : [
+            "Comedy",
+            "Romance"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "13",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Al sol",
+          "director" : "Charles Chaplin",
+          "year" : "1919",
+          "description" : "Charlie works on a farm from 4am to late at night. He gets his food on the run (milking a cow into his coffee, holding an chicken over the frying pan to get fried eggs). He loves the neighbor's daughter Edna but is disliked by her father. He rides a cow into a stream and is kicked off. Unconscious, he dreams of a nymph dance. Back in reality a city slicker is hurt in ... Read all",
+          "genres" : [
+            "Comedy",
+            "Short"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "14",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "El verdadero corazón de Susie",
+          "director" : "D.W. Griffith",
+          "year" : "1919",
+          "description" : "Susie, a plain young country girl, secretly loves a neighbor boy, William. She believes in him and sacrifices much of her own happiness to promote his own ambitions, all without his knowledge. Eventually he rises to a position of success and sophistication, and Susie realizes that she has through her own efforts raised him to a level where he is inaccessible to her.",
+          "genres" : [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "17",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Convicto 13",
+          "director" : "Edward F. Cline",
+          "year" : "1920",
+          "description" : "A young golfer is mugged by an escaped convict and finds himself in a prison where he foils a jailbreak.",
+          "genres" : [
+            "Short",
+            "Comedy",
+            "Crime"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "19",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Cuando ellas quieren",
+          "director" : "Mauritz Stiller",
+          "year" : "1920",
+          "description" : "EROTIKON surely pushed the boundaries of what was acceptable on the screen in 1920: Irene, the bored wife of a distracted entomologist, pursues a womanizing aviator, but she may actually be in love with Preben, her husband's best friend. Meanwhile, her husband seems to be getting unusually close with his own niece. Stiller obviously delights in teasing his audience wi... Read all",
+          "genres" : [
+            "Comedy",
+            "Romance"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "20",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "The Flapper",
+          "director" : "Alan Crosland",
+          "year" : "1920",
+          "description" : "Ginger grows up in a slow town. Because of her wild attitude, her father decides to send her to a strict boarding school. Despite the strictness, the girls have fun getting into flapper lifestyle trouble including flirting.",
+          "genres" : [
+            "Comedy",
+            "Romance"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "22",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Harold, el nuevo doctor",
+          "director" : "Hal Roach",
+          "year" : "1920",
+          "description" : "A tipsy doctor encounters his patient sleepwalking on a building ledge, high above the street.",
+          "genres" : [
+            "Comedy",
+            "Short"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "23",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Buenos amigos",
+          "director" : "John Ford",
+          "year" : "1920",
+          "description" : "Small-town tramp befriends runaway boy.",
+          "genres" : [
+            "Comedy",
+            "Drama",
+            "Western"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "24",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Buenos amigos",
+          "director" : "John Ford",
+          "year" : "1920",
+          "description" : "Small-town tramp befriends runaway boy.",
+          "genres" : [
+            "Comedy",
+            "Drama",
+            "Western"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "29",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Keaton en Vecinos",
+          "director" : "Edward F. Cline",
+          "year" : "1920",
+          "description" : "A young couple who live next to each other in tenement apartments do everything they can to be together despite of their feuding families.",
+          "genres" : [
+            "Short",
+            "Comedy",
+            "Romance"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "30",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Number, Please?",
+          "director" : "Hal Roach",
+          "year" : "1920",
+          "description" : "While at an amusement park, two men try to win the heart of a young lady. They compete with each other while attempting to find her runaway dog, and they race to ask her mother's permission to take her up in a hot air balloon.",
+          "genres" : [
+            "Short",
+            "Comedy",
+            "Romance"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "31",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Una semana",
+          "director" : "Edward F. Cline",
+          "year" : "1920",
+          "description" : "A newly wedded couple attempts to build a house with a prefabricated kit, unaware that a rival sabotaged the kit's component numbering.",
+          "genres" : [
+            "Short",
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "33",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Pasión y boda de Pamplinas",
+          "director" : "Herbert Blaché",
+          "year" : "1920",
+          "description" : "The simple-minded son of a rich financier must find his own way in the world.",
+          "genres" : [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "34",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "The Scarecrow",
+          "director" : "Edward F. Cline",
+          "year" : "1920",
+          "description" : "Two inventive farmhands compete for the hand of the same girl.",
+          "genres" : [
+            "Comedy",
+            "Short",
+            "Family"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "38",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "¿Por qué cambiar de esposa?",
+          "director" : "Cecil B. DeMille",
+          "year" : "1920",
+          "description" : "Robert and Beth Gordon are married but share little. He runs into Sally at a cabaret and the Gordons are soon divorced. Just as he gets bored with Sally's superficiality, Beth strives to improve her looks. The original couple falls in love again at a summer resort.",
+          "genres" : [
+            "Comedy",
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "42",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "El señorito Primavera",
+          "director" : "Cecil B. DeMille",
+          "year" : "1921",
+          "description" : "Socialite Anatol Spencer seeks a better relation than he has with his wife. He sets up the friend of his youth Emilie in an apartment and she two-times him; he comforts near-suicidal Annie and she robs him.",
+          "genres" : [
+            "Comedy",
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "43",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "El gato montés",
+          "director" : "Ernst Lubitsch",
+          "year" : "1921",
+          "description" : "A charismatic lieutenant newly assigned to a remote fort is captured by a group of mountain bandits, thus setting in motion a madcap farce that is Lubitsch at his most unrestrained.",
+          "genres" : [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "45",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "La barca",
+          "director" : "Edward F. Cline",
+          "year" : "1921",
+          "description" : "Buster and his family go on a voyage on his homemade boat that proves to be one disaster after another.",
+          "genres" : [
+            "Short",
+            "Comedy",
+            "Family"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "47",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Enchantment",
+          "director" : "Robert G. Vignola",
+          "year" : "1921",
+          "description" : "The frothy experiences of a vain little flapper. Her father induces an actor friend to become a gentlemanly cave man and the film becomes another variation of the 'Taming of the Shrew' theme.",
+          "genres" : [
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "49",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "El chivo",
+          "director" : "Buster Keaton",
+          "year" : "1921",
+          "description" : "A series of adventures begins when an accident during photographing causes Buster to be mistaken for Dead Shot Dan, the local bad guy.",
+          "genres" : [
+            "Comedy",
+            "Short"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "50",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Hard Luck",
+          "director" : "Edward F. Cline",
+          "year" : "1921",
+          "description" : "Strange things ensue after a young man attempts to take his own life.",
+          "genres" : [
+            "Short",
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "51",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Keaton - La casa encantada",
+          "director" : "Edward F. Cline",
+          "year" : "1921",
+          "description" : "A bank clerk ends up in a seemingly haunted house that is actually a thieves' hideout.",
+          "genres" : [
+            "Short",
+            "Comedy",
+            "Horror"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "52",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "El guardaespaldas",
+          "director" : "Edward F. Cline",
+          "year" : "1921",
+          "description" : "A drifter at an amusement park finds himself both the bodyguard and hit man of a man targeted by a criminal gang.",
+          "genres" : [
+            "Short",
+            "Action",
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "54",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Vacaciones",
+          "director" : "Charles Chaplin",
+          "year" : "1921",
+          "description" : "A tramp sneaks into a upper class golf resort. The tramp meets a rich woman who is having an argument with her drunken husband. Complications arise when she mistakes the tramp for her husband.",
+          "genres" : [
+            "Short",
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "55",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "El chico",
+          "director" : "Charles Chaplin",
+          "year" : "1921",
+          "description" : "The Tramp cares for an abandoned child, but events put their relationship in jeopardy.",
+          "genres" : [
+            "Comedy",
+            "Drama",
+            "Family"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "58",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Miss Lulu Bett",
+          "director" : "William C. de Mille",
+          "year" : "1921",
+          "description" : "A once-timid young woman gains newfound confidence after a failed marriage, much to the chagrin of her miserable family.",
+          "genres" : [
+            "Comedy",
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "59",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "My Boy",
+          "director" : "Albert Austin",
+          "year" : "1921",
+          "description" : "An orphan escapes immigration officials at Ellis Island and goes to live with an old ship's master who can't find work and can't pay the rent.",
+          "genres" : [
+            "Comedy",
+            "Drama"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "61",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Never Weaken",
+          "director" : "Fred C. Newmeyer",
+          "year" : "1921",
+          "description" : "A man hits the streets with a scheme to keep his fiancé from losing her job, however, things quickly go from bad to worse.",
+          "genres" : [
+            "Short",
+            "Comedy",
+            "Thriller"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "62",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Now or Never",
+          "director" : "Fred C. Newmeyer",
+          "year" : "1921",
+          "description" : "A young man, unaccustomed to children, must accompany a young girl on a train trip.",
+          "genres" : [
+            "Comedy",
+            "Short"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "64",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "El rostropálido",
+          "director" : "Edward F. Cline",
+          "year" : "1922",
+          "description" : "Buster helps a Native American tribe save their land from greedy oil barons.",
+          "genres" : [
+            "Short",
+            "Comedy",
+            "Western"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "65",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "El gran espectáculo",
+          "director" : "Edward F. Cline",
+          "year" : "1921",
+          "description" : "After waking up from his wacky dream, a theater stage hand inadvertently causes havoc everywhere he works.",
+          "genres" : [
+            "Short",
+            "Comedy",
+            "Fantasy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "74",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "El herrero",
+          "director" : "Buster Keaton",
+          "year" : "1922",
+          "description" : "Buster Keaton shoes horses and repairs cars, with mixed results.",
+          "genres" : [
+            "Comedy",
+            "Short"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "75",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "La mudanza",
+          "director" : "Edward F. Cline",
+          "year" : "1922",
+          "description" : "A series of mishaps manages to make a young man get chased by a big city's entire police force.",
+          "genres" : [
+            "Short",
+            "Comedy",
+            "Family"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "76",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Sueños imposibles",
+          "director" : "Edward F. Cline",
+          "year" : "1922",
+          "description" : "A sincere young man leaves his home to win his fortune so he can marry his home town sweetheart.",
+          "genres" : [
+            "Short",
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "78",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Doctor Jack",
+          "director" : "Fred C. Newmeyer",
+          "year" : "1922",
+          "description" : "Country Doctor, Jack Jackson is called in to treat the Sick-Little-Well-Girl, who has been making Dr. Saulsbourg and his sanitarium very rich, after years of unsuccessful treatment. Dr. Jack's old-fashioned methods do the trick, and the quack is sent packing.",
+          "genres" : [
+            "Comedy",
+            "Romance"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "80",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "La casa eléctrica",
+          "director" : "Edward F. Cline",
+          "year" : "1922",
+          "description" : "After being mistakenly certified as an electrical engineer, Buster is hired to wire a house.",
+          "genres" : [
+            "Short",
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "82",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "El Polo Norte",
+          "director" : "Edward F. Cline",
+          "year" : "1922",
+          "description" : "Buster plays a bumbling villain in this parody of melodrama.",
+          "genres" : [
+            "Short",
+            "Comedy",
+            "Western"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "83",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "El mimado de la abuelita",
+          "director" : "Fred C. Newmeyer",
+          "year" : "1922",
+          "description" : "A meek young man must find the courage within when a rogue tramp menaces his home town.",
+          "genres" : [
+            "Comedy",
+            "Family"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "88",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Las relaciones con mi mujer",
+          "director" : "Edward F. Cline",
+          "year" : "1922",
+          "description" : "By accident, Buster and an intimidating woman end up married.",
+          "genres" : [
+            "Short",
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "91",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "La pandilla",
+          "director" : "Robert F. McGowan",
+          "year" : "1922",
+          "description" : "An unethical merchant moves into town and steals customers from the widowed owner of an established store; the gang steps in to help.",
+          "genres" : [
+            "Short",
+            "Comedy",
+            "Family"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "101",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Los tres mosqueteros",
+          "director" : "Max Linder",
+          "year" : "1922",
+          "description" : "This delightful burlesque of Alexandre Dumas' famous adventure narrative (and then-leading screen swashbuckler Douglas Fairbanks' hit films) represented one of writer/director/star Max Linder's attempts to conquer Hollywood on its own turf. He'd been an enormous star in early silent cinema, influencing the style of such subsequent silent comedy luminaries as Charles C... Read all",
+          "genres" : [
+            "Action",
+            "Adventure",
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "106",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "Alice's Wonderland",
+          "director" : "Walt Disney",
+          "year" : "1923",
+          "description" : "Alice visits an animation studio, where the animators show her various scenes on their drawing boards. A few of them: a cat dancing to a cat band; a mouse poking at a (live) cat until it moves; a couple mice boxing, while the animators crowd around cheering and acting as corner-men. That night, she dreams of taking a train to cartoon-land, where a red carpet reception... Read all",
+          "genres" : [
+            "Animation",
+            "Comedy",
+            "Short"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "107",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "El aeronauta",
+          "director" : "Edward F. Cline",
+          "year" : "1923",
+          "description" : "A hapless amusement park attendant finds his run away balloon ride has left him in a strange predicament.",
+          "genres" : [
+            "Short",
+            "Comedy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "108",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "El diario de Glúmov",
+          "director" : "Sergei Eisenstein",
+          "year" : "1923",
+          "description" : "Filmic insert to Eisenstein's modernized, free adaptation of Ostrovskiy's 19th-century Russian stage play, \"The Wise Man\" (\"Na vsyakogo mudretsa dovolno prostoty\"). The anti-hero Glumov tries to escape exposure in the midst of acrobatics, derring-do, and farcical clowning. Several members of Eisenstein's troupe at the legendary \"Proletkult\" stage theatre in Moscow bri... Read all",
+          "genres" : [
+            "Short",
+            "Comedy",
+            "Fantasy"
+          ],
+          "lgbt" : false
+        }
+      },
+      {
+        "_index" : "multimedia",
+        "_type" : "_doc",
+        "_id" : "109",
+        "_score" : 1.47552,
+        "_source" : {
+          "title" : "The Extra Girl",
+          "director" : "F. Richard Jones",
+          "year" : "1923",
+          "description" : "Sue Graham is a small town girl who wants to be a motion picture star. She wins a contract when a picture of a very pretty girl is sent to a studio instead of her picture. When she arrives in Hollywood, the mistake is discovered and she starts working in the props department of the studio instead. Her parents then come out to California and invest some money with a ve... Read all",
+          "genres" : [
+            "Comedy",
+            "Romance"
+          ],
+          "lgbt" : false
+        }
+      }
+    ]
+  },
+  "aggregations" : {
+    "films" : {
+      "doc_count_error_upper_bound" : 0,
+      "sum_other_doc_count" : 1355,
+      "buckets" : [
+        {
+          "key" : "Edward F. Cline",
+          "doc_count" : 24
+        },
+        {
+          "key" : "William Beaudine",
+          "doc_count" : 16
+        },
+        {
+          "key" : "John Ford",
+          "doc_count" : 13
+        },
+        {
+          "key" : "Ernst Lubitsch",
+          "doc_count" : 12
+        },
+        {
+          "key" : "Dino Risi",
+          "doc_count" : 11
+        },
+        {
+          "key" : "David Hand",
+          "doc_count" : 10
+        },
+        {
+          "key" : "Mario Monicelli",
+          "doc_count" : 10
+        },
+        {
+          "key" : "Edward Sedgwick",
+          "doc_count" : 9
+        },
+        {
+          "key" : "Fred C. Newmeyer",
+          "doc_count" : 9
+        },
+        {
+          "key" : "Henry Koster",
+          "doc_count" : 9
+        }
+      ]
+    }
+  }
+}
