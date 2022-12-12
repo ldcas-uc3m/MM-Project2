@@ -23,7 +23,7 @@ curl -XGET "localhost:9200/multimedia/_search?pretty" -H 'Content-Type: applicat
 
 # query4
 # Films dealing with corrupt politicians in Europe and the United States
-curl -XGET "localhost:9200/multimedia/_search?pretty" -H 'Content-Type: application/json' -d @scripts/query3.json > results/query4.json
+curl -XGET "localhost:9200/multimedia/_search?pretty" -H 'Content-Type: application/json' -d @scripts/query4.json > results/query4.json
 
 # delete index
 curl -XDELETE "localhost:9200/multimedia?pretty"
