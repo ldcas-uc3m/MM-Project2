@@ -35,8 +35,9 @@ built in steps 1 and 2:
 show the number of films by year.
 4. Films dealing with corrupt politicians in Europe and the United States.
 
-Use 50 results per query.
+Use 50 results per query.  
 
+The queries can be found inside the `scripts/` folder, and the results inside the `results/` folder.
 
 ## Execution
 
